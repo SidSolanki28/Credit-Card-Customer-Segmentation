@@ -124,7 +124,26 @@ Autoencoders consists of 4 main parts:
 
 4- Reconstruction Loss: This is the method that measures measure how well the decoder is performing and how close the output is to the original input.
 
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/0_BfGx9Pk2mf78GOfj.png)
+
 ---
+# Model Performance
+
+---
+# Model Prediction
+
+---
+# Conclusion
+
+After analyzing whole credit card dataset, we finally done customer segmentation by dividing customers into four clusters which can be used to target specific customers as their needs by marketers to provide offers, loans etc.
+---
+
+# Further Improvements
+
+- Not to avoid outliers as there are many outliers in dataset
+
+- Try other clustering strategies
+
 
 
 
