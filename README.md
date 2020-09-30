@@ -53,3 +53,18 @@ Following is the Data Dictionary for Credit Card dataset :-
 - TENURE : Tenure of credit card service for user
 
 ---
+# Data Cleaning
+
+I made the following changes and created the following variables:
+
+- Set NULL values for “minimum payments” and “credit limit” with mean data
+- Remove column “customer ID”
+
+---
+# EDA
+
+I looked at the distributions of the data and the value counts for the various numerical variables. Below are a few highlights:
+
+
+
+
