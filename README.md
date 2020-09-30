@@ -25,6 +25,8 @@ As we know, marketing is very important for growth and development of any compan
 - Packages: Pandas, Numpy, Seaborn, Matplotlib, Scikit, Tensorflow and Keras
 - Resources used:
   - https://medium.com/analytics-vidhya/how-to-determine-the-optimal-k-for-k-means-708505d204eb
+  - https://towardsdatascience.com/dimensionality-reduction-pca-versus-autoencoders-338fcaf3297d
+  - https://economictimes.indiatimes.com/wealth/borrow/how-to-get-a-credit-card-if-you-dont-have-a-job/articleshow/70769990.cms
   
 ---
 # Web Scraping
@@ -107,6 +109,23 @@ The Silhouette Score reaches its global maximum at the optimal k.
 Autoencoder is an unsupervised artificial neural network that learns how to efficiently compress and encode data then learns how to reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.
 
 Autoencoder, by design, reduces data dimensions by learning how to ignore the noise in the data.
+
+![Autoendoder for MNIST](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/1%20P7aFcjaMGLwzTvjW3sD-5Q.jpeg)
+
+Autoencoder Components:
+
+Autoencoders consists of 4 main parts:
+
+1- Encoder: In which the model learns how to reduce the input dimensions and compress the input data into an encoded representation.
+
+2- Bottleneck: which is the layer that contains the compressed representation of the input data. This is the lowest possible dimensions of the input data.
+
+3- Decoder: In which the model learns how to reconstruct the data from the encoded representation to be as close to the original input as possible.
+
+4- Reconstruction Loss: This is the method that measures measure how well the decoder is performing and how close the output is to the original input.
+
+---
+
 
 
 
