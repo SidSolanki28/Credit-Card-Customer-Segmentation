@@ -65,6 +65,7 @@ I made the following changes and created the following variables:
 
 I looked at the distributions of the data and the value counts for the various numerical variables. Below are a few highlights:
 
+![] ()
 
 
 
