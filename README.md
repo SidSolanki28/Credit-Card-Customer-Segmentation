@@ -129,13 +129,28 @@ Autoencoders consists of 4 main parts:
 ---
 # Model Performance
 
+- WCSS : Within-Cluster-Sum of Squared Errors
+- k : No. of clusters
+
+Green Line: WCSS Vs K
+Red Line: WCSS of Autoencoder model Vs k
+
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/__results___78_0.png)
+
+It is clear WCSS Error is reduced after dimensionality reduction by encoders.
+
 ---
 # Model Prediction
+
+Customer Segmentation by k-means clustering
+
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index.png)
 
 ---
 # Conclusion
 
 After analyzing whole credit card dataset, we finally done customer segmentation by dividing customers into four clusters which can be used to target specific customers as their needs by marketers to provide offers, loans etc.
+
 ---
 
 # Further Improvements
