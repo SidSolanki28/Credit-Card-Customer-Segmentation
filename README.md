@@ -21,8 +21,8 @@ As we know, marketing is very important for growth and development of any compan
 ---
 # Code and Resources used
 
-Python version: 3.7.6
-Packages: Pandas, Numpy, Seaborn, Matplotlib, Scikit, Tensorflow and Keras
-Resources used:
+-Python version: 3.7.6
+-Packages: Pandas, Numpy, Seaborn, Matplotlib, Scikit, Tensorflow and Keras
+-Resources used:
 
 ---
