@@ -3,7 +3,7 @@
 ---
 # Project Overview
 
-- Objective : To do Customer Segmentation on Credit Card Data 
+- Objective : *To do Customer Segmentation on Credit Card Data* 
 - Clustering Model
 - Data cleaning and Data preprocessing
 - Exploratory Data Analysis
