@@ -24,7 +24,8 @@ As we know, marketing is very important for growth and development of any compan
 - Python version: 3.7.6
 - Packages: Pandas, Numpy, Seaborn, Matplotlib, Scikit, Tensorflow and Keras
 - Resources used:
-
+  - https://medium.com/analytics-vidhya/how-to-determine-the-optimal-k-for-k-means-708505d204eb
+  
 ---
 # Web Scraping
 
@@ -68,6 +69,44 @@ I looked at the distributions of the data and the value counts for the various n
 ![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index.png)
 
 ---
+# Model Builiding
+
+## K-means
+
+The K-Means is an unsupervised machine learning algorithm. It works by grouping data points with similar attribute values together by measuring the euclidean distances between them. It is simple and perhaps the most commonly used algorithm for clustering.
+
+The basic idea behind k-means consists of defining k clusters such that total within-cluster variation (or error) is minimum.
+
+Two methods that can be useful to find this mysterious k in k-Means are:
+- The Elbow Method
+- The Silhouette Method
+
+### The Elbow Method
+
+Calculate the Within-Cluster-Sum of Squared Errors (WSS) for different values of k, and choose the k for which WSS becomes first starts to diminish. In the plot of WSS-versus-k, this is visible as an elbow.
+
+Within-Cluster-Sum of Squared Errors sounds a bit complex. Let’s break it down:
+
+- The Squared Error for each point is the square of the distance of the point from its representation i.e. its predicted cluster center.
+- The WSS score is the sum of these Squared Errors for all the points.
+- Any distance metric like the Euclidean Distance or the Manhattan Distance can be used
+
+### The Silhouette Method
+
+The silhouette value measures how similar a point is to its own cluster (cohesion) compared to other clusters (separation).
+
+The range of the Silhouette value is between +1 and -1. A high value is desirable and indicates that the point is placed in the correct cluster. If many points have a negative Silhouette value, it may indicate that we have created too many or too few clusters.
+
+The Silhouette Score reaches its global maximum at the optimal k.
+
+---
+# Dimesionality Reduction
+
+## Autoencoders
+
+Autoencoder is an unsupervised artificial neural network that learns how to efficiently compress and encode data then learns how to reconstruct the data back from the reduced encoded representation to a representation that is as close to the original input as possible.
+
+Autoencoder, by design, reduces data dimensions by learning how to ignore the noise in the data.
 
 
 
