@@ -129,11 +129,10 @@ Autoencoders consists of 4 main parts:
 ---
 # Model Performance
 
-- WCSS : Within-Cluster-Sum of Squared Errors
-- k : No. of clusters
+WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 
-Green Line: WCSS Vs K
-Red Line: WCSS of Autoencoder model Vs k
+- Green Line: WCSS Vs K
+- Red Line: WCSS of Autoencoder model Vs k
 
 ![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/__results___78_0.png)
 
