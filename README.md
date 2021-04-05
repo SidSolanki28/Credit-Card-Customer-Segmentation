@@ -68,7 +68,7 @@ I made the following changes and created the following variables:
 
 I looked at the distributions of the data and the value counts for the various numerical variables. Below are a few highlights:
 
-![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index_outlier.png)
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/raw/master/Images/index_outlier.png)
 
 ---
 # Model Builiding
@@ -110,7 +110,7 @@ Autoencoder is an unsupervised artificial neural network that learns how to effi
 
 Autoencoder, by design, reduces data dimensions by learning how to ignore the noise in the data.
 
-![Autoendoder for MNIST](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/1%20P7aFcjaMGLwzTvjW3sD-5Q.jpeg)
+![Autoendoder for MNIST](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/raw/master/Images/1%20P7aFcjaMGLwzTvjW3sD-5Q.jpeg)
 
 Autoencoder Components:
 
@@ -124,7 +124,7 @@ Autoencoders consists of 4 main parts:
 
 4- Reconstruction Loss: This is the method that measures measure how well the decoder is performing and how close the output is to the original input.
 
-![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/0_BfGx9Pk2mf78GOfj.png)
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/raw/master/Images/0_BfGx9Pk2mf78GOfj.png)
 
 ---
 # Model Performance
@@ -134,7 +134,7 @@ WCSS : Within-Cluster-Sum of Squared Errors And k : No. of clusters
 - Green Line: WCSS Vs K
 - Red Line: WCSS of Autoencoder model Vs k
 
-![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/__results___78_0.png)
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/raw/master/Images/__results___78_0.png)
 
 It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 
@@ -143,7 +143,7 @@ It is clear WCSS Error is reduced after dimensionality reduction by encoders.
 
 Customer Segmentation by k-means clustering
 
-![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/blob/master/Images/index.png)
+![](https://github.com/SidSolanki28/Credit-Card-Customer-Segmentation/raw/master/Images/index.png)
 
 ---
 # Conclusion
