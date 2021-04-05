@@ -11,6 +11,8 @@
 - **PCA** used for Model Visualization
 - **Autoencoders Model** used for Dimensionality Reduction to improve Cluster Analysis
 
+<img src="https://github.com/SidSolanki28/Sid_Portfolio/raw/master/images/credit1.png" width="400" height="250">
+
 ---
 # About Project
 
